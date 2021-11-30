@@ -1,0 +1,343 @@
+* {
+    padding: 0%; 
+    margin: 0%;
+}
+
+body {
+    background:linear-gradient(top, black, 40%, white, 60%);
+}
+
+
+button a {
+    color: white;
+}
+
+button {
+    background-color: black;
+}
+
+main div div a:hover {
+        height: 600px;
+        width: 400px;
+        padding: 15px;
+        transition: all 1s;
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+    align: center;
+}
+img {
+    z-index: 0;
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+img:hover {
+    z-index: 0;
+    -webkit-transform: translate(10px);
+    -moz-transform: translate(10px);
+    -o-transform: translate(10px);
+}
+
+.transformacion1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+}}
+
+.degrade {
+    background: linear-gradient(rgb(146, 146, 143), white)
+}
+
+.tituloServicios {
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+tr td img {
+    border-radius: 60px;
+}
+
+p a button {
+    font-style: italic;
+}
+
+
+div table {
+    right: 20%;
+    left: 20%;
+}
+
+#tituloContacto {
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin-bottom: 3%;
+}
+
+
+header {
+    position: sticky;
+    background-color: black;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+
+li {
+    top: 0%;
+    right: 0%;
+    display: inline-block;
+    width: 5%;
+    position: relative;
+    font-size: 14px;
+    padding: 5px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul ul li {
+    display: block;
+    width: 100%;
+    right: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+/* #menu ul ul {
+    display: none;
+    position: absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding: 0;
+    z-index: 10;
+}
+
+#menu ul ul li {
+    text-align: left;
+    float: left;
+    width: 150px
+}
+
+#menu ul ul a {
+    line-height:100%;
+    padding-left: 5px;
+}
+
+#menu ul li:hover > ul {
+    display:block;
+}
+
+#menu li {
+    top: 0%;
+    right: 0%;
+    display: inline-block;
+    width: 5%;
+    position: relative;
+    font-size: 14px;
+    background-color: black;
+    margin-right: 10px;
+} */
+
+.tituloSecundario {
+    background-color: rgb(116, 112, 112);
+    color: white;
+    background-size: contain;
+    font-size: 50px;
+}
+
+ul a {
+    color: white;
+}
+
+header li {
+    display: inline-block;
+    position: relative;
+} 
+
+.menuInicio {
+    z-index: 10;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    font-family: Helvetica;
+    font-size: 30px;
+    text-transform: uppercase;
+    word-spacing: 0.5%;
+    letter-spacing: 0.2%;
+    color: white;
+}
+
+.boxServicios {
+    display: grid;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    grid-template-columns: 0fr 0fr 0fr 0fr;
+    grid-template-rows: 0fr 0fr;
+    grid-column-gap: 8%;
+    grid-row-gap: 5%;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;  
+}
+
+.marginContacto {
+    margin-top: 0%;
+    margin-bottom: 7%; 
+}
+
+nav div img {
+    border-radius: 30px;
+}
+
+.paginaCovid {
+    display: grid;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.paginaCovid_2 {
+    display: grid;
+    padding-top: 0%;
+    padding-bottom: 10%;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.paginaCovid_2 button {
+    display: grid;
+    background-color: black;
+    color: white;
+    text-decoration:none;
+}
+
+.containerServicios {
+    display: grid;
+    grid-template-columns: 270px 370px 270px 370px ;
+	grid-template-rows: repeat(4, 300px);
+    grid-gap: 1rem;
+    justify-items: center;
+    align-items: center;    
+}
+
+.boxPrecios {
+    margin-top: 40px;
+    margin-right: 4em;
+    margin-bottom: 40px;
+    margin-left: 4em;
+    border: 5px solid black;
+    padding: 40px;
+    margin: 40px;
+    width: 800px;
+    height: 300px;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(226, 226, 220);
+  }
+
+.boxParrafo {
+    border: 5px solid black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    margin: 40px;
+    width: 800px;
+    height: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(226, 226, 220);
+    
+}
+
+.precios {
+    background-color: rgb(116, 112, 112);
+}
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin-top: 0%;
+}
+
+/* menu */
+#menu {
+    float:left;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    background-color:#000000;
+}
+
+
+.menu_select {
+    width:97%;
+    float:right;
+    display:none;
+    position:relative;
+}
+
+#selectme {
+    width:80%;
+    background-color:#000000;
+    color:#ffffff;
+    padding:10px;
+    font-weight: bold;
+    text-align:right;
+    cursor:pointer;
+    float:right;
+}
+
+
+ul#options li {
+    width:98%;
+    float:right;
+
+}
+
+@media only screen and (max-width: 980px) {
+nav ul { display: none; }
+nav select { display: inline-block; width:100%; background-color: #000; color:#FFF; font-size: 16px; font-weight: bold; }
+nav .menu_select { display: inline-block; width:100%; background-color: #000; color:#FFF; font-size: 16px; font-weight: bold; }
+}
